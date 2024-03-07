@@ -4,7 +4,7 @@ import { FaHeart, FaRegHeart} from 'react-icons/fa'
 const Movie = ({item}) => {
     const [like, setLike] = useState(false)
   return (
-    <div>
+    
        <div className=" w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] inline-block cursor-pointer relative p-2">
        <img
         className='w-full h-auto block'
@@ -21,7 +21,7 @@ const Movie = ({item}) => {
 
                     </div>
                 </div>
-    </div>
+    
   )
 }
 
